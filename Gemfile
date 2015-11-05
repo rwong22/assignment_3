@@ -42,3 +42,4 @@ ruby '2.0.0'
 gem 'rails_12factor', group: :production
 gem 'therubyracer'
 gem 'devise'
+gem 'pusher'

@@ -16,7 +16,7 @@
 // Pusher.sockjs_host = 'sockjs-eu.pusher.com';
 
 var pusher = new Pusher('<%= Pusher.key %>'); // uses your APP KEY
-var channel = pusher.subscribe('test_channel');
+var channel = pusher.subscribe('mafia_test_channel');
 channel.bind('greet', function(data) {
   alert(data.greeting);
 });
